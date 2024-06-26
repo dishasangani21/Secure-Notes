@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px){
+    .mlogo img{
+        width: 150px;
+    }
+    nav{
+        display: flex;
+        height: 142px;
+        flex-direction: column;
+    }
+    .nav_items ul li a{
+       margin-top: 5px; 
+    }
+    .search{
+        display: none;
+    }
+    #unote{
+        width: 300px;
+    }
+    #clrNote{
+        margin-bottom: 20px;
+    }
+    #recent{
+        margin-bottom: -25px;
+    }
+    #noRecent{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #clrNote{
+        padding: 15px;
+    }
+    #addNote{
+        padding: 15px 25px 15px 25px;
+    }
+    #footer{
+        height: 35px;
+        margin-bottom: 0px;
+    }
+}

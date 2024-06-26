@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Notes - by Disha</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="nav_items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.instagram.com/disha_sng/" target="__blank">About Me</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Search">
+                <div class="slogo">
+                    <img src="favicon-16x16.png" alt="search">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="info">
+            <label for="unote">Enter your note</label>
+            <textarea id="unote" cols="30" rows="10" placeholder="Note........." required></textarea>
+            <div id="buttons">
+                <button class="btn" id="addNote" onclick="addNote()">Add Note</button>
+                <button class="btn" id="clrNote" onclick="clrNote()">Clear All Notes</button>
+            </div>
+        </section>
+        <hr>
+        <h2 id="recent">Recent Notes.</h3>
+        <p id="noRecent">Looks like there is no recent notes to show, Click "Add Note" to add one.</p>
+        <section id="notes_sec">
+
+        </section>
+        <footer>
+            <div id="futer" class="footer_div">
+                <h4>
+                    Copyright by Disha Sangani
+                </h4>
+            </div>
+        </footer>
+    </main>
+  
+    <script src="Javascript/index.js"></script>
+</body>
+
+</html>
